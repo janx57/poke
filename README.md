@@ -22,6 +22,6 @@ As a result of a poke, an e-mail will be sent with a link to the change.
 mvn clean package</pre>
 
 <h3>Deployment</h3>
-Before deployment you have to copy an e-mail template Mail/Poke.vm to $GERRIT_HOME/etc/mail
+Before deployment you have to copy an e-mail template src/main/resources/Mail/Poke.vm to $GERRIT_HOME/etc/mail
 
 Afterwards, you deploy Poke as any regular Gerrit plugin.
